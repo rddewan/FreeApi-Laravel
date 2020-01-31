@@ -20,7 +20,7 @@ Route::get('/validate_token', function () {
 
 Route::post('register','Api\Auth\AuthController@register');
 Route::post('login','Api\Auth\AuthController@login');
-Route::get('data/{id}','Api\Profile\UserProfileController@index');
+
 
 Route::group(['prefix' => 'post'],function (){
     Route::group(['middleware' => 'auth:api'],function (){
