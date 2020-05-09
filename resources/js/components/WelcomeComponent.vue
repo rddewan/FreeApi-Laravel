@@ -17,10 +17,10 @@
                     <h5>POST : http://xxx/api/register</h5>
                     <code>
                         <ul>
-                        <li> name : user1</li>
-                        <li>email : user1@gmail.com</li>
-                        <li>password : 1234</li>
-                        <li>password_confirmation : 1234</li>
+                            <li> name : user1</li>
+                            <li>email : user1@gmail.com</li>
+                            <li>password : 1234</li>
+                            <li>password_confirmation : 1234</li>
                         </ul>
                     </code>
                 </div>
@@ -33,8 +33,8 @@
                     <code>
                         login will return bearer token.Use this token for all endpoint that requires Authorization
                         <ul>
-                        <li>email : user1@gmail.com</li>
-                        <li>password : 1234</li>
+                            <li>email : user1@gmail.com</li>
+                            <li>password : 1234</li>
                         </ul>
                     </code>
                 </div>
@@ -47,10 +47,10 @@
                     <code>
                         set header Authorization with token to add post
                         <ul>
-                        <li>user_id : 1</li>
-                        <li>title : test</li>
-                        <li>body : test body</li>
-                        <li>image : happy.jpg</li>
+                            <li>user_id : 1</li>
+                            <li>title : test</li>
+                            <li>body : test body</li>
+                            <li>image : happy.jpg</li>
                         </ul>
                     </code>
                 </div>
