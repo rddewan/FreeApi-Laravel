@@ -1,4 +1,5 @@
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/merosath/freeapi.binarysolution.biz/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R /home/merosath/gitrepo/greeapi $DEPLOYPATH
