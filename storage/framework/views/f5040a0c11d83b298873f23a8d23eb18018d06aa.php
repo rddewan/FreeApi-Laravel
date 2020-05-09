@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('content'); ?>
     <div id="app">
         <welcome-component></welcome-component>
