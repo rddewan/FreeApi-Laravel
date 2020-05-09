@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cpanelUser/public_html/
+    - export DEPLOYPATH=/home/merosath/freeapi.binarysolution.biz/
     - /bin/cp -R * $DEPLOYPATH
