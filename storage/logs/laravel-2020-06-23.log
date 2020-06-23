@@ -1,0 +1,9 @@
+[2020-06-23 01:22:29] local.ERROR: Command "limk" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"limk\" is not defined. at C:\\Users\\Richard\\Documents\\Website\\freeAPI\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\Richard\\Documents\\Website\\freeAPI\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('limk')
+#1 C:\\Users\\Richard\\Documents\\Website\\freeAPI\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\Richard\\Documents\\Website\\freeAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\Richard\\Documents\\Website\\freeAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\Richard\\Documents\\Website\\freeAPI\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
