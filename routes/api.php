@@ -33,6 +33,14 @@ Route::group(['prefix' => 'post'],function (){
 
 });
 
+Route::group(['prefix' => 'post/no_auth'],function (){
+    Route::post('add_post_blog','Api\Blog\BlogController@store');
+    Route::post('update_post_blog','Api\Blog\BlogController@update');
+    Route::post('post_image','Api\Blog\BlogController@storeImage');
+    Route::get('all_post_detail','Api\Blog\BlogController@index');
+    Route::delete('delete/{id}','Api\Blog\BlogController@destroy');
+});
+
 Route::group(['prefix' => 'user'],function (){
     Route::group(['middleware'=> 'auth:api'],function (){
         Route::get('detail/{id}','Api\Auth\AuthController@userDetail');
